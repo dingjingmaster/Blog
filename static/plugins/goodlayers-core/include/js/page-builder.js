@@ -1574,7 +1574,7 @@
 		if(typeof($.fn.isotope) == 'function'){
 
 			if( typeof(filter_elem) == 'undefined' ){
-				var elem = $(this).find('[data-layout="masonry"]');
+				var elem = $(this).find('[data-layouts="masonry"]');
 			}else{
 				var elem = filter_elem.filter('[data-layout="masonry"]');
 			}		
@@ -2078,7 +2078,7 @@
 							var content = $(data.content);
 							ajax_section.siblings('.' + ajax_section.attr('data-target')).each(function(){
 
-								if( $(this).attr('data-layout') != 'masonry' || typeof($.fn.isotope) != 'function' ){
+								if( $(this).attr('data-layouts') != 'masonry' || typeof($.fn.isotope) != 'function' ){
 									content.addClass('gdlr-core-animate-init');
 								}
 								$(this).append(content);
@@ -2086,7 +2086,7 @@
 								content.gdlr_core_lightbox().gdlr_core_flexslider().gdlr_core_content_script().gdlr_core_set_image_height();
 								new gdlr_core_sync_height(content);
 
-								if( $(this).attr('data-layout') == 'masonry' && typeof($.fn.isotope) == 'function' ){
+								if( $(this).attr('data-layouts') == 'masonry' && typeof($.fn.isotope) == 'function' ){
 									var addItems = $(this).isotope('addItems', content);
 									$(this).isotope('layoutItems', addItems, true);
 								}
@@ -2113,7 +2113,7 @@
 								var fix_height = false;
 								var current_height = $(this).height();
 
-								if( $(this).attr('data-layout') != 'masonry' || typeof($.fn.isotope) != 'function' ){
+								if( $(this).attr('data-layouts') != 'masonry' || typeof($.fn.isotope) != 'function' ){
 									content.addClass('gdlr-core-animate-init');
 								}
 								$(this).empty().append(content);
@@ -2121,7 +2121,7 @@
 								content.gdlr_core_lightbox().gdlr_core_flexslider().gdlr_core_fluid_video().gdlr_core_set_image_height();
 								new gdlr_core_sync_height(content);
 
-								if( $(this).attr('data-layout') == 'masonry' && typeof($.fn.isotope) == 'function' ){
+								if( $(this).attr('data-layouts') == 'masonry' && typeof($.fn.isotope) == 'function' ){
 									$(this).isotope('destroy');
 									$(this).parent().gdlr_core_isotope();
 									fix_height = true;
