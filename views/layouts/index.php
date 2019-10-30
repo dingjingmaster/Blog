@@ -57,18 +57,7 @@ $this->title = 'Linux &#8211; world';
                             <div class=akea-overlay-menu-cell>
                                 <ul id=menu-main-navigation class=menu>
                                     <li class="menu-item menu-item-home current-menu-item"><a href="/" aria-current=page>首頁</a></li>
-                                    <li class="menu-item menu-item-has-children"><a href=#>Pages</a>
-                                        <ul class=sub-menu>
-                                            <li class="menu-item"><a href=contact.html>Contact</a></li>
-                                            <li class="menu-item"><a href=author.html>Author</a></li>
-                                            <li class="menu-item"><a href=gallery.html>Gallery</a></li>
-                                            <li class="menu-item"><a href=price-table.html>Price Table</a></li>
-                                            <li class="menu-item"><a href=maintenance.html>Maintenance</a></li>
-                                            <li class="menu-item"><a href=coming-soon.html>Coming Soon</a></li>
-                                            <li class="menu-item"><a href=404.html>404 Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item menu-item-has-children"><a href=#>Category</a>
+                                    <li class="menu-item menu-item-has-children"><a href=#>分類</a>
                                         <ul class=sub-menu>
                                             <li class="menu-item"><a href=photography.html>Photography</a></li>
                                             <li class="menu-item"><a href=travel.html>Travel</a></li>
@@ -77,7 +66,7 @@ $this->title = 'Linux &#8211; world';
                                             <li class="menu-item"><a href=technology.html>Technology</a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item menu-item-has-children"><a href=blog-full-right-sidebar-with-frame.html>Layout</a>
+                                    <li class="menu-item menu-item-has-children"><a href=blog-full-right-sidebar-with-frame.html>時光軸</a>
                                         <ul class=sub-menu>
                                             <li class="menu-item"><a href=gutenberg-post-ex-1.html>Gutenberg Single Post</a></li>
                                             <li class="menu-item"><a href=9-most-awesome-blue-lake-with-snow-mountain.html>Single Post</a></li>
@@ -124,18 +113,7 @@ $this->title = 'Linux &#8211; world';
                         <div class=akea-main-menu id=akea-main-menu>
                             <ul id=menu-main-navigation-1 class=sf-menu>
                                 <li class="menu-item menu-item-home current-menu-item akea-normal-menu"><a href="/" class=sf-with-ul-pre>首頁</a></li>
-                                <li class="menu-item menu-item-has-children akea-normal-menu"><a href=# class=sf-with-ul-pre>Pages</a>
-                                    <ul class=sub-menu>
-                                        <li class="menu-item" data-size=60><a href=contact.html>Contact</a></li>
-                                        <li class="menu-item" data-size=60><a href=author.html>Author</a></li>
-                                        <li class="menu-item" data-size=60><a href=gallery.html>Gallery</a></li>
-                                        <li class="menu-item" data-size=60><a href=price-table.html>Price Table</a></li>
-                                        <li class="menu-item" data-size=60><a href=maintenance.html>Maintenance</a></li>
-                                        <li class="menu-item" data-size=60><a href=coming-soon.html>Coming Soon</a></li>
-                                        <li class="menu-item" data-size=60><a href=404.html>404 Page</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-has-children akea-normal-menu"><a href=# class=sf-with-ul-pre>Category</a>
+                                <li class="menu-item menu-item-has-children akea-normal-menu"><a href=# class=sf-with-ul-pre>分類</a>
                                     <ul class=sub-menu>
                                         <li class="menu-item" data-size=60><a href=photography.html>Photography</a></li>
                                         <li class="menu-item" data-size=60><a href=travel.html>Travel</a></li>
@@ -154,7 +132,7 @@ $this->title = 'Linux &#8211; world';
                                         </div>
                                     </div>
                                 </li>
-                                <li class="menu-item menu-item-has-children akea-normal-menu"><a href=blog-full-right-sidebar-with-frame.html class=sf-with-ul-pre>Layout</a>
+                                <li class="menu-item menu-item-has-children akea-normal-menu"><a href=blog-full-right-sidebar-with-frame.html class=sf-with-ul-pre>時光軸</a>
                                     <ul class=sub-menu>
                                         <li class="menu-item"><a href=gutenberg-post-ex-1.html>Gutenberg Single Post</a></li>
                                         <li class="menu-item menu-item-has-children" data-size=60><a href=blog-full-no-sidebar.html class=sf-with-ul-pre>Blog Full</a>
