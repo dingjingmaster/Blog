@@ -26,6 +26,7 @@ $this->title = 'Linux &#8211; world';
 
 <body class="home page-template-default page page-id-2039 gdlr-core-body woocommerce-no-js akea-body akea-body-front akea-full  akea-with-sticky-navigation  akea-blockquote-style-1 gdlr-core-link-to-lightbox" data-home-url="/">
 <?php $this->beginBody() ?>
+<!-- 頭部 - 開始 -->
 <div class=akea-mobile-header-wrap>
     <div class="akea-mobile-header akea-header-background akea-style-slide akea-sticky-mobile-navigation " id=akea-mobile-header>
         <div class="akea-mobile-header-container akea-container clearfix">
@@ -55,11 +56,7 @@ $this->title = 'Linux &#8211; world';
                         <div class=akea-overlay-menu-row>
                             <div class=akea-overlay-menu-cell>
                                 <ul id=menu-main-navigation class=menu>
-                                    <li class="menu-item menu-item-home current-menu-item"><a href=index.php aria-current=page>Home</a>
-                                        <ul class=sub-menu>
-                                            <li class="menu-item menu-item-home current-menu-item "><a href=index.php aria-current=page>Homepage</a></li>
-                                        </ul>
-                                    </li>
+                                    <li class="menu-item menu-item-home current-menu-item"><a href="/" aria-current=page>首頁</a></li>
                                     <li class="menu-item menu-item-has-children"><a href=#>Pages</a>
                                         <ul class=sub-menu>
                                             <li class="menu-item"><a href=contact.html>Contact</a></li>
@@ -126,11 +123,7 @@ $this->title = 'Linux &#8211; world';
                     <div class="akea-navigation akea-item-pdlr clearfix ">
                         <div class=akea-main-menu id=akea-main-menu>
                             <ul id=menu-main-navigation-1 class=sf-menu>
-                                <li class="menu-item menu-item-home current-menu-item akea-normal-menu"><a href=index.php class=sf-with-ul-pre>Home</a>
-                                    <ul class=sub-menu>
-                                        <li class="menu-item menu-item-home current-menu-item " data-size=60><a href=index.php>Homepage</a></li>
-                                    </ul>
-                                </li>
+                                <li class="menu-item menu-item-home current-menu-item akea-normal-menu"><a href="/" class=sf-with-ul-pre>首頁</a></li>
                                 <li class="menu-item menu-item-has-children akea-normal-menu"><a href=# class=sf-with-ul-pre>Pages</a>
                                     <ul class=sub-menu>
                                         <li class="menu-item" data-size=60><a href=contact.html>Contact</a></li>
@@ -276,7 +269,7 @@ $this->title = 'Linux &#8211; world';
             </div>
         </header>
 
-        <!-- 頭部 -->
+        <!-- 頭部 - 結束 -->
         <div class=akea-page-wrapper id=akea-page-wrapper>
             <div class=gdlr-core-page-builder-body>
                     <div class="gdlr-core-pbf-wrapper " id="div_2207_0" id=gdlr-core-wrapper-1>
