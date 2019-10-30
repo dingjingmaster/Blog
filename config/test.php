@@ -19,13 +19,13 @@ return [
             'useFileTransport' => true,
         ],
         'assetManager' => [
-            'basePath' => __DIR__ . '/../web/assets',
+            'basePath' => __DIR__ . '/runtime/assets',
         ],
         'urlManager' => [
             'showScriptName' => true,
         ],
         'user' => [
-            'identityClass' => 'app\models\User',
+//            'identityClass' => 'app\models\User',
         ],
         'request' => [
             'cookieValidationKey' => 'test',
