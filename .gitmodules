@@ -1,0 +1,9 @@
+[submodule "content"]
+	path = content
+	url = git@github.com:dingjingmaster/blog-post.git
+[submodule "themes/jiujiu"]
+	path = themes/jiujiu
+	url = git@github.com:dingjingmaster/blog-web.git
+[submodule "public"]
+	path = public
+	url = git@github.com:dingjingmaster/dingjingmaster.github.io.git
