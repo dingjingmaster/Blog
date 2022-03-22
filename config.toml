@@ -335,7 +335,7 @@ enableEmoji = true
     twemoji = true
     # whether to enable lightgallery
     # 是否使用 lightgallery
-    lightgallery = false
+    lightgallery = true
     # whether to enable the ruby extended syntax
     # 是否使用 ruby 扩展语法
     ruby = true
@@ -468,8 +468,8 @@ enableEmoji = true
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
         enable = true
-        appId = ""
-        appKey = ""
+        appId = "oGOJ6TSiiaaOrhXD1bEYILk9-gzGzoHsz"
+        appKey = "1bK71uSxpg4XmLmvm2h13JdD"
         placeholder = ""
         avatar = ""
         meta= ""
@@ -674,7 +674,7 @@ enableEmoji = true
 # Author config
 # 作者配置
 [author]
-  name = "丁敬"
+  name = "ding jing"
   email = "dingjing@live.cn"
   link = ""
 
