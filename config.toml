@@ -469,7 +469,7 @@ enableEmoji = true
       [params.page.comment.valine]
         enable = true
         appId = "oGOJ6TSiiaaOrhXD1bEYILk9-gzGzoHsz"
-        appKey = "1bK71uSxpg4XmLmvm2h13JdD"
+        appKey = "lbK71uSxpg4XmLmvm2h13JdJ"
         placeholder = ""
         avatar = ""
         meta= ""
@@ -479,7 +479,7 @@ enableEmoji = true
         recordIP = true
         highlight = true
         enableQQ = false
-        serverURLs = ""
+        serverURLs = "https://ogoj6tsi.lc-cn-n1-shared.com"
         # emoji data file name, default is "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
         # located in "themes/LoveIt/assets/data/emoji/" directory
